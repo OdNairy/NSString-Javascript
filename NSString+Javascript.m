@@ -11,7 +11,7 @@
 
 @implementation NSString (Javascript)
 
--(NSString *)execJS:(NSString *)js
+-(NSString *)runJavascript:(NSString *)js
 {
     UIWebView* webView = [[UIWebView alloc] init];
     
